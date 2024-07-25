@@ -1,0 +1,28 @@
+@import url(../../styles/utils.scss);
+
+.header-section_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    img {
+        width: 800px;
+        height: 600px;
+        border-radius: 25px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #000;
+        width: 500px;
+        span {
+            color: rgb(69, 157, 239);
+        }
+    } 
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 20px;
+        width: 500px;
+    }
+}

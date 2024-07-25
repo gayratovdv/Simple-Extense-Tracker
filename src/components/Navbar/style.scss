@@ -1,0 +1,53 @@
+@import url(../../styles/utils.scss);
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+}
+
+.navLogo {
+  width: 80px;
+  height: 90px;
+}
+
+.navLists {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  li a {
+    text-decoration: none;
+    color: #000;
+  }
+  &:hover {
+    color: rgb(176, 176, 176);
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  .loginBtn,
+  .signupBtn {
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .loginBtn {
+    background: rgb(19, 113, 227);
+  }
+  .signupBtn {
+    background: rgb(254, 149, 2);
+  }
+  .loginBtn:hover {
+    background: rgb(74, 126, 190);
+  }
+  .signupBtn:hover {
+    background: rgb(241, 187, 110);
+  }
+}
