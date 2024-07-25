@@ -13,24 +13,24 @@ const Navbar = () => {
           </a>
           <ul className="navLists">
             <li>
-              <a href="#">About</a>
+              <a href="#">Sayt haqida</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Bog'lanish</a>
             </li>
             <li>
               <a href="#">Dashboard</a>
             </li>
             <li>
-              <a href="#">Add Expense</a>
+              <a href="#">Xarajatni Qo'shish</a>
             </li>
             <li>
-              <a href="#">Edit Expense</a>
+              <a href="#">Xarajatni Tahrirlash</a>
             </li>
           </ul>
           <div className="btns">
-            <button className="loginBtn">Login</button>
-            <button className="signupBtn">Sign Up</button>
+            <button className="loginBtn">Kirish</button>
+            <button className="signupBtn">Ro'yxatdan O'tish</button>
           </div>
         </nav>
       </Container>

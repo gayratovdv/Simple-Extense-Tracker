@@ -1,0 +1,33 @@
+@import url(../../styles/utils.scss);
+
+.footer {
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.footer .social-links {
+  margin-bottom: 10px;
+}
+.footer .social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+.footer .social-links a:hover {
+  text-decoration: underline;
+}
+.footer .legal-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+.footer .legal-links a:hover {
+  text-decoration: underline;
+}
