@@ -1,6 +1,7 @@
 import React from "react";
 import navLogo from "../../Assets/expense-tracker-app-gradient-icon-for-dark-theme-vector-39050859-removebg-preview.png";
 import Container from "../Container/Container";
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 const Navbar = () => {
@@ -8,12 +9,15 @@ const Navbar = () => {
     <div>
       <Container>
         <nav className="navbar">
-          <a href="#">
+          <Link to="/">
             <img className="navLogo" src={navLogo} />
-          </a>
+          </Link>
           <ul className="navLists">
             <li>
-              <a href="#">Sayt haqida</a>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="About">Sahifa haqida</Link>
             </li>
             <li>
               <a href="#">Bog'lanish</a>
