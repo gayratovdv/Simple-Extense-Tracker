@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
-import Navbar from '../../../../src/components/Navbar'
-import Footer from '../../../../src/components/Footer'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import "./add.scss"
 
 const Add = () => {

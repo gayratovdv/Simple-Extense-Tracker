@@ -1,4 +1,5 @@
 import About from "./pages/About";
+import Add from "./pages/Add/Add";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Home from "./pages/Home";
 
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/add" element={<Add/>}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -8,6 +8,7 @@ import './style.scss';
 import Navbar from '../../components/Navbar';
 import Container from '../../components/Container/Container';
 import Footer from '../../components/Footer';
+import '../../components/DashboardComp/Dashboard.scss';
 
 const Dashboard = () => {
     const [expenses, setExpenses] = useState([]);
