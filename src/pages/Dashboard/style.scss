@@ -1,0 +1,13 @@
+/* src/components/Dashboard/Dashboard.css */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px;
+    padding: 300px;
+}
