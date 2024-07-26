@@ -1,0 +1,82 @@
+:root{
+    --blue-color: #1371e3;
+    --orange-color: #fe9502;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form{
+    padding: 80px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 100px;
+    border: 3px solid var(--blue-color);
+}
+
+h1{
+    color: var(--blue-color);
+    font-size: 46px;
+    text-align: center;
+}
+
+h3{
+    color: var(--orange-color);
+    font-size: 28px;
+}
+
+input, select{
+    width: 300px;
+    font-size: 24px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 3px solid var(--blue-color);
+    outline: none;
+    border-radius: 15px;
+}
+
+input:focus, select:focus{
+    border-color: var(--orange-color);
+}
+
+button{
+    padding: 15px;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: var(--blue-color);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--orange-color);
+}
+
+button:active{
+    background-color: #fff;
+    color: var(--orange-color);
+    border: 3px solid var(--orange-color);
+    padding: 12.7px;
+}
+
+p{
+    display: none;
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+}
