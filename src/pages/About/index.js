@@ -1,5 +1,14 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../../components/Navbar/index'
+import OurTeam from '../../components/ourTeam'
 
-export default function About() {
-  return <div></div>;
+const About = () => {
+  return (
+    <div>
+      <Navbar/>
+      <OurTeam />
+    </div>
+  )
 }
+
+export default About
